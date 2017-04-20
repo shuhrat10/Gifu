@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/kaishin/Gifu.git", :tag => "v#{s.version}", :submodules => true }
   s.platform = :ios, "9.0"
   s.ios.source_files = "Source/**/*.{h,swift}"
+  s.tvos.source_files = "Source/**/*.{h,swift}"
   s.requires_arc = true
   s.ios.deployment_target = "9.0"
 end
